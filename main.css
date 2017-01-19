@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0
+    }
+
+body {
+    background-color: #fff;
+    width: 100%;
+    font-family: 'Arimo', sans-serif;
+    }
+
+button {
+    display: none;
+}
+
+.drop_down {
+    display: none;
+}
+
+#nav_wrapper {
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    background-color: black;
+    background-color: rgba(0,0,0,.5);
+    }
+
+.nav_wrapper, ul, li, a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    }
+
+li {
+    font-size: 1.5em;
+    }
+
+#header_bg {
+    background: url(img/header_photo.jpg) no-repeat center center;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkitz-background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    }
+
+.header_content {
+    display: block;
+    color: #fff;
+    margin-top: 30vh;
+    text-align: center;
+    }
+
+.header_title {
+    display: inline-block;
+    border: 7px double #fff;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0,.5);
+    }
+
+.header_kicker {
+    margin-top: 10px;
+    }
+
+.column_container {
+    float: left;
+    width: 33.33%;
+    height: auto;
+    padding-top: 5%;
+    }
+
+.column_h {
+    text-align: center;
+    margin-top: %;
+    height: auto;
+    }
+
+.column_p {
+    margin-top: 5%;
+    text-align: center;
+    height: auto;
+    }
+
+.short_section {
+    height: auto;
+    clear: both;
+    padding-bottom: 50px;
+    }
+
+.bottom_p {
+    text-align: center;
+    margin-top: 20%;
+    padding: 50px 0px;
+}
+
+.footer_email {
+    padding: 50px 0px;
+    text-align: center;
+    background-color: black;
+    background-color: rgba(0,0,0,.9);
+    color: #F2FCF8;
+    height: auto;
+    }
+
+.footer_copyright {
+    padding-top: 2%;
+    padding-left: 1%;
+    background-color: black;
+    color: #fff;
+    height: auto;
+    }
+
+/* ------- MEDIA QUERIES --------- */
+
+@media screen and (max-width: 620px) {
+    .column_container {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    li {
+        display: none;
+    }
+    
+    .nav_collapse {
+        display: inline-block; 
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+    }
+    
+    .nav_icon_bar {
+        display: block;
+        height: 7px;
+        background-color: black;
+        width: 35px;
+        margin: 4px 5px;
+        border-radius: 2px;
+    }
+}
